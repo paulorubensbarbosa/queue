@@ -1,11 +1,11 @@
 package main
-
+import "fmt"
 //Creating a Queue Structure
 
 type Queue struct {
 	front, rear, size, i 	int
 	capacity             	int
-	array[i]				int
+	slice[]  				int	
 }
 
 //function to create a Queue
@@ -16,10 +16,13 @@ func newQueue(capacity int) {
 	queue.front 	= 0
 	queue.size 		= 0
 	queue.rear 		= capacity - 1
-	//não sei como colocar o capacity dentro dos ([]) do array
-	//queue.array	=  
-	queue.i			= capacity
+	queue.slice = make([]int, capacity)
+	
+	fmt.Println("item no slice: ", queue.slice[0])
+	fmt.Println("cap: ", cap(queue.slice))
 }
 
+
 func main() {
+	newQueue(10)
 }
