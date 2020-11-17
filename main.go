@@ -67,6 +67,10 @@ func getRear(queue *Queue)int{
 	}
 }
 
+func getSize(queue *Queue)int{
+	return queue.size
+}
+
 //testing all functions
 func main() {
 var queue *Queue = newQueue(10)
@@ -76,8 +80,10 @@ enqueue(queue, 3)
 
 fmt.Println ("item: ", dequeue(queue), " Dequeued from queue" )
 fmt.Println ("item: ", dequeue(queue), " Dequeued from queue" )
+fmt.Println ("item: ", dequeue(queue), " Dequeued from queue" )
 
 fmt.Println("Front item is: ", getFront(queue))
 fmt.Println("Rear item is: ", getRear(queue))
 
+fmt.Println(getSize(queue))
 }
