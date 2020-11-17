@@ -86,4 +86,5 @@ fmt.Println("Front item is: ", getFront(queue))
 fmt.Println("Rear item is: ", getRear(queue))
 
 fmt.Println(getSize(queue))
+
 }
