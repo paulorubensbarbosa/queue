@@ -72,3 +72,7 @@ this one consists in:
 - https://www.golang-book.com/books/intro
 
 - https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/
+
+## Contact and Feed back:
+
+- Email: paulorubensbarbosa@outlook.com
