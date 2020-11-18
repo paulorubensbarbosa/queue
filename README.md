@@ -1,10 +1,6 @@
 # queueInGo
 Creating a queue in golang
 
-Introduction
-At the end of this implementation, I discovered a lot of things about golang and Data Structures
-Golang is a realy soft lengage and very simple to learn and understund, I got it using his own document named: "An Introduction to Programming in Go"
-
 Objective
 My first objective was to resolve a exercice that a profissional programmer gave to me
 this one consists in: 
@@ -55,10 +51,3 @@ To implement a queue that has the folloing functions:
 Bibliography
 https://www.golang-book.com/books/intro
 https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/
-
-Thanks Jonatas!
-
-  
-  
-  
-  
