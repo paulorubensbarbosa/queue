@@ -37,13 +37,15 @@ this one consists in:
   
 ## Functions in "queueInGo"
 
-  **For to create a new queue you need to define his name ``[QUEUE_NAME]`` and his capacity ``[QUEUE_CAPACITY]`` using the line command:
+  **For to create a new queue you need to define his name ``[QUEUE_NAME]`` and his capacity ``[QUEUE_CAPACITY]`` using the line command:**
   
   ```var [QUEUE_NAME] = queueInGo.NewQueue([QUEUE_CAPACITY])```
   
   eg
   
   ```var queueExemple = queueInGo.NewQueue(10)```
+  
+  **All the following Functions, just will works if you already created a queue, using the first function**
   
   **To enqueue**
   
