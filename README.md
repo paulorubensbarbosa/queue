@@ -20,10 +20,10 @@ this one consists in:
   
   **Then clone this repository using:**
   
-  ``` git clone https://github.com/paulorubensbarbosa/queueInGo ```
+  ``` git clone https://github.com/paulorubensbarbosa/queue ```
   
   **Now enter in the directory:**
-    ```cd $GOPATH/src/queueInGo```
+    ```cd $GOPATH/src/queue```
   **And instal using:**
     ```go install```
   
@@ -31,7 +31,7 @@ this one consists in:
   
   **First inside of your golang file, you need to import the Package using:**
   
-  ```import "queueInGo"```
+  ```import "queue"```
   
   **Now you can use all the functions inside of "queueInGo"**
   
@@ -39,33 +39,33 @@ this one consists in:
 
   **For to create a new queue you need to define his name ``[QUEUE_NAME]`` and his capacity ``[QUEUE_CAPACITY]`` using the line command:**
   
-  ```var [QUEUE_NAME] = queueInGo.NewQueue([QUEUE_CAPACITY])```
+  ```var [QUEUE_NAME] = queue.NewQueue([QUEUE_CAPACITY])```
   
   eg
   
-  ```var queueExemple = queueInGo.NewQueue(10)```
+  ```var queueExemple = queue.NewQueue(10)```
   
   **All the following Functions, just will works if you already created a queue, using the first function**
   
   **To enqueue**
   
-  ```queueInGo.Enqueue([QUEUE_NAME], [ITEM_TO_BE_ENQUEUED])```
+  ```queue.Enqueue([QUEUE_NAME], [ITEM_TO_BE_ENQUEUED])```
   
   **To dequeue**
   
-  ```queueInGo.Dequeue([QUEUE_NAME])```
+  ```queue.Dequeue([QUEUE_NAME])```
   
   **To get the first item**
   
-  ```queueInGo.GetFront([QUEUE_NAME])```
+  ```queue.GetFront([QUEUE_NAME])```
   
   **To get the last item**
   
-  ```queueInGo.GetRear([QUEUE_NAME])```
+  ```queue.GetRear([QUEUE_NAME])```
   
   **To get the size of the queue**
   
-  ```queueInGo.GetSize([QUEUE_NAME])```
+  ```queue.GetSize([QUEUE_NAME])```
 
 ## Bibliography
 
